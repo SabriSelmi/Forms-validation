@@ -1,0 +1,51 @@
+
+
+.col-sm-8{
+    margin-left:1%;
+}
+.col-sm-5{
+    margin-left:30%;
+    margin-right:30%;
+    
+}
+.col-sm-7{
+    margin-left:4%;
+}
+.email{
+    margin-left:2.5%;
+   
+}
+
+.upcase,.bout{
+      margin-top:0.5%;
+      margin-bottom:0.5%;  
+}
+#comments{
+    margin-bottom:1%;
+    
+}
+.sect{
+    background-color: rgba(196, 52, 95, 0.5);
+    margin-top:2%;
+    height:90vh;
+    border-radius:10%;
+    margin-left:12vw;
+    margin-right:12vw;  
+   
+}
+#body{
+    background-color: rgb(212, 24, 56);
+    text-align:center;
+}
+.username{
+    margin-top:2%;
+    margin-left:1%;
+    
+}
+.bout{
+    color: #495057;
+}
+#password,#email{
+    color: #495057;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Application </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        
+    </head>
+
+    <body id="body" class="container-fluid">
+        <section class="sect col-sm-9">
+        <form class="form row" name="myForm" action="portfolio/index.html"  onsubmit="return validateForm(0)" method="post">
+            <div class="upcase username col-sm-8">User name:</div>
+                <input class="form-control reset col-sm-5 " id="name"  name="Username" placeholder="Name" type="text">            
+            <div class="upcase col-sm-7">Adress:</div>
+                <input class="form-control reset col-sm-5 " id="adress"  name="adress" placeholder="Adress" type="text" >
+            <div class="upcase email col-sm-8">E-mail Adress:</div>
+                <input id="email" class="reset col-sm-5 " name="email" placeholder="Email" type="text">
+            <div class="upcase col-sm-8">Password:</div>
+                <input id="password" class="reset col-sm-5" name="password" placeholder="Password" type="password">
+            <div class="upcase col-sm-8">Comment:</div>
+                <textarea class="form-control reset col-sm-5 " id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            
+                <input id="sub" class="bout col-sm-5 " type="submit" value="Submit" >
+            
+             
+                <input id="reset" class="bout col-sm-5 " type="button" value="reset">
+            
+          </form> 
+        </section>
+          <script src="script1.js" >
+          </script>
+          
+    </body>
